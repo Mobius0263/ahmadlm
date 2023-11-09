@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <img class="hidden h-screen" id="image" src="assets/course.jpg" alt="course" onclick="hide()">
+    <div id="bg" class="justify-center items-center h-screen bg-center bg-cover bg-no-repeat px-24 py-10 relative">
+        <nav class="flex items-center">
+            <ul class="flex-auto text-center">
+                <li class="list-none inline-block px-5">
+                    <a href="about.html" class="no-underline text-black px-2 font-semibold">About Us</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a onclick="course()" id="courseclick" class="no-underline text-black px-2 font-semibold">Courses</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a onclick="test()" class="no-underline text-black px-2 font-semibold">Test</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container py-32 px-28">
+            <h1 class="text-6xl font-semibold leading-normal">Learn</h1>
+            <h1 class="text-6xl font-semibold leading-normal">English</h1>
+            <h1 class="text-2xl font-semibold leading-normal">Anytime, anywhere.</h1>
+            <br>
+            <div>
+                <form method="get" action="#learn">
+                    <button type="submit" class="bg-lime-400 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-black hover:text-black duration-300 hover:border border border-transparent">Learn More</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="h-screen bg-gradient-to-b from-white to-lime-200">
+        <div>
+            <div class="flex relative justify-center bg-center bg-lime-400">
+                <h1 id="learn" class="text-6xl font-bold leading-normal px-5 py-5">Why Choose Our Online English Courses?</h1>
+            </div>
+            <div class="flex bg-white px-20">
+                <p class="text-xl font-medium leading-normal px-5 py-40">Our comprehensive online English courses provide a structured curriculum designed to improve your speaking, listening, reading, and writing skills. With interactive lessons, personalized feedback, and flexible scheduling, you can learn English at your own convenience. Join thousands of students who have successfully improved their English proficiency with our courses.</p>
+            </div>
+        </div>
+    </div>
+    <div class="h-screen bg-white">
+        <div>
+            <div class="flex relative justify-center bg-center">
+                <h2 class="text-6xl font-bold leading-normal px-5 py-12">Unlock Your English Potential</h1>
+            </div>
+            <div class="flex justify-center">
+                <p class="text-xl font-medium leading-normal px-5 py-0">Discover the features that make our online English course website the best choice for language learners.</p>
+            </div>
+        </div>
+        <br>
+        <section class="container py-10">
+            <div class="showcase-content-wrapper">
+                <div class="showcase-item">
+                    <img src="assets/photo1.jpeg" alt="photo1">
+                </div>
+                <div class="showcase-item">
+                    <img src="assets/photo2.jpeg" alt="photo2">
+                </div>
+                <div class="showcase-item">
+                    <img src="assets/photo3.jpeg" alt="photo3">
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="bg-slate-900">
+            <br>
+            <h4 class="text-lg text-white text-center">Copyright © Mobius</h4>
+            <p class="text-base text-white text-center">All Rights Reserved.</p>
+            <br>
+        </div>
+    </footer>
+</body>
+</html>
