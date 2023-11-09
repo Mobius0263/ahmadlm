@@ -25,7 +25,7 @@ function test() {
 ```
 
 # Jika link "Courses" di click, akan memunculkan gambar kamus bahasa Inggris yang bisa disembunyikan lagi jika gambar di click.
-```
+```js
 function course() {
     document.getElementById('image').style.display="block";
     document.getElementById('courseclick').style.display="none";
