@@ -28,3 +28,6 @@ function hide() {
     document.getElementById('image').style.display="none";
     document.getElementById('courseclick').style.display="block";
 }
+function changebg() {
+    document.getElementById('bg').style.backgroundImage="url(assets/bg2.jpg)";
+}

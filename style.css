@@ -17,8 +17,12 @@
     transition: max-height 0.2s ease-out;
 }
 #bg {
-  background-image: linear-gradient(to bottom, transparent, white),
-  url('assets/bg.jpeg');
+    background-image: linear-gradient(to bottom, transparent, white),
+    url('assets/bg.jpeg');
+}
+#bg2 {
+    background-image: linear-gradient(to bottom, transparent, white),
+    url('assets/bg2.jpg');
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
